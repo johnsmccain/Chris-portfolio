@@ -1,0 +1,23 @@
+.outro {
+  width: 100%;
+  max-width: 700px;
+  padding: 10px;
+}
+.outro-title {
+  font-size: 46px;
+  margin: 20px 0;
+  line-height: 50px;
+}
+.outro .small {
+  text-decoration: none;
+  color: rgb(9, 153, 9);
+}
+.mail {
+  color: rgb(206, 203, 203);
+}
+@media screen and (max-width: 480px) {
+  .outro-title {
+    font-size: 31px;
+    line-height: 35px;
+  }
+}

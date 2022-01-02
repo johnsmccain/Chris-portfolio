@@ -1,0 +1,44 @@
+.meet {
+  width: 100%;
+  margin-bottom: 40px;
+}
+.profile {
+  margin-left: auto;
+  position: relative;
+
+  width: 50%;
+}
+.profile h2 {
+  position: absolute;
+  top: 50%;
+  width: 90%;
+  font-size: 41px;
+  left: -70px;
+  z-index: 999;
+}
+.profile h2 span {
+  color: var(--primary-green);
+}
+.profile img {
+  object-fit: cover;
+  width: 100%;
+  opacity: 0.3;
+
+  right: 0;
+}
+@media screen and (max-width: 480px) {
+  .profile {
+    height: 100vh;
+    width: 100%;
+  }
+  .profile h2 {
+    position: absolute;
+    top: 50%;
+    width: 85%;
+    line-height: 37px;
+    padding: 10px;
+    margin-left: 10px;
+    font-size: 30px;
+    left: 57px;
+  }
+}

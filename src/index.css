@@ -1,0 +1,13 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  --primary-green: rgb(9, 153, 9);
+  --title: 30px;
+  --lead: 18px;
+}
+.link {
+  text-decoration: none;
+  color: inherit;
+}

@@ -1,0 +1,16 @@
+.project {
+  margin-left: auto;
+
+  padding-top: 20px;
+  margin-top: 20px;
+  width: 70%;
+}
+.project img {
+  width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  .project {
+    width: 80%;
+  }
+}

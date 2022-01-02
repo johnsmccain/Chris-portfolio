@@ -1,0 +1,50 @@
+.sidebar {
+  padding: 10px;
+  margin: 10px;
+  height: 30vh;
+}
+.logo img {
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+}
+.menu {
+  list-style: none;
+}
+.menu li {
+  margin: 7px 0;
+  padding: 10px 0;
+}
+.link {
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 500;
+  color: inherit;
+  text-transform: uppercase;
+}
+
+.hamburger {
+  width: 30px;
+  position: absolute;
+  height: 30px;
+  background: #000;
+  cursor: pointer;
+  display: none;
+}
+
+.hamburger div {
+  background: #fff;
+  height: 4px;
+  margin: 4px 0;
+  width: 100%;
+  z-index: 123;
+}
+
+@media screen and (max-width: 415px) {
+  .hamburger {
+    display: block;
+  }
+  .hide {
+    display: none;
+  }
+}

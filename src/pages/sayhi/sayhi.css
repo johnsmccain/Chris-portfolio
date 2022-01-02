@@ -1,0 +1,29 @@
+.sayhi {
+  margin-left: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-top: 20px;
+
+  height: 100%;
+  width: 69%;
+}
+.sayhi h2 {
+  text-transform: uppercase;
+  font-size: 41px;
+}
+.sayhi h2 span {
+  color: var(--primary-green);
+}
+.sayhi .imbx {
+  width: 5rem;
+  padding-bottom: 20px;
+}
+.sayhi .imbx img {
+  width: 100%;
+}
+@media screen and (max-width: 480px) {
+  .sayhi h2 {
+    font-size: 30px;
+  }
+}

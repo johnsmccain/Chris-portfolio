@@ -1,0 +1,15 @@
+.banner {
+  width: 100%;
+  margin: 20px 0px;
+}
+.banner img {
+  width: 100%;
+}
+.intro-title {
+  font-weight: 400;
+}
+@media screen and (max-width: 480px) {
+  .banner {
+    padding: 10px;
+  }
+}
